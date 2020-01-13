@@ -3,7 +3,8 @@ def reverse_each_word(sentence1)
   # Then iterate over array using each index
   # shovel each index into new array in reverse order 
  new_sentence = sentence1.split(" ")
-  new_sentence.collect { |w| w.reverse} 
+  mirror = new_sentence.collect { |w| w.reverse}
+  mirror.join(" ")
 end
 reverse_each_word("Hello there, and how are you?")
 
