@@ -5,5 +5,5 @@ def reverse_each_word(sentence1)
  new_sentence = sentence1.split(" ")
   new_sentence.map { |w| w.reverse} 
 end
-reverse_each_word()
+reverse_each_word("Hello there, and how are you?")
 
